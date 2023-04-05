@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+</head>
+
+<body>    
+    <h3>1. Buatlah form sederhana menggunakan HTML & CSS</h3>
+</br>
+    <div class="wrapper">
+        <h1>Pendaftaran Mahasiswa Baru</h1>
+    </div>
+    <div class="tabel">
+        <form action="" class="form">
+            <div class="Kolom">
+                <label for="npm">NPM (Nomor Pokok Mahasiswa)</label>
+                <input type="number" name="npm" id="npm">
+            </div>
+            <div class="Kolom">
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" name="nama" id="nama">
+            </div>
+            <div class="Kolom">
+                <label for="alamt">Alamat</label>
+                <textarea name="alamat" id="alamat" rows="3"></textarea>
+            </div>
+            <div class="Kolom">
+                <label for="npm">Jenis Kelamin</label>
+                <div class="radios">
+                    <input type="radio" name="kelamin"> Laki Laki
+                </div>
+                <div>
+                    <input type="radio" name="kelamin"> Perempuan
+                </div>
+            </div>
+            <div class="Kolom">
+                <label for="studi">NPM (Nomor Pokok Mahasiswa)</label>
+                <select name="studi" id="studi" style="padding: 4px;">
+                    <option value="TI">Teknik Informatika</option>
+                    <option value="SI">Sistem Informasi</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">Tambah</button>
+            </div>
+
+        </form>
+    </div>
+    </br>
+    <h3>2. Buatlah tabel seperti berikut menggunakan HTML & CSS</h3>
+    </br>
+    <div class="wrapper">
+        <h1 class="text-center mb-5">Tabel Nilai Mahasiswa</h1>
+        <div class="mx-5">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th rowspan="2">NPM</th>
+                        <th rowspan="2">Nama Lengkap</th>
+                        <th colspan="10">Absen</th>
+                        <th colspan="10">Tugas</th>
+                        <th rowspan="2">UTS</th>
+                        <th rowspan="2">UAS</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                        <th>9</th>
+                        <th>10</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>192061001</td>
+                        <td>Rina Kumala Sari</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>90</td>
+                        <td>85</td>
+                        <td>70</td>
+                        <td>95</td>
+                        <td>88</td>
+                        <td>76</td>
+                        <td>95</td>
+                        <td>97</td>
+                        <td>80</td>
+                        <td>88</td>
+                        <td>85</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>192061002</td>
+                        <td>Kevin Mulyana</td>
+                        <td>H</td>
+                        <td>A</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>A</td>
+                        <td>A</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>80</td>
+                        <td>95</td>
+                        <td>90</td>
+                        <td>85</td>
+                        <td>98</td>
+                        <td>96</td>
+                        <td>75</td>
+                        <td>87</td>
+                        <td>70</td>
+                        <td>78</td>
+                        <td>95</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>192061003</td>
+                        <td>Lastri Handayani</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>90</td>
+                        <td>85</td>
+                        <td>70</td>
+                        <td>95</td>
+                        <td>88</td>
+                        <td>76</td>
+                        <td>95</td>
+                        <td>97</td>
+                        <td>80</td>
+                        <td>88</td>
+                        <td>85</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>192061004</td>
+                        <td>Doni Sanjaya</td>
+                        <td>H</td>
+                        <td>A</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>A</td>
+                        <td>A</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>80</td>
+                        <td>95</td>
+                        <td>90</td>
+                        <td>85</td>
+                        <td>98</td>
+                        <td>96</td>
+                        <td>75</td>
+                        <td>87</td>
+                        <td>70</td>
+                        <td>78</td>
+                        <td>95</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>192061005</td>
+                        <td>Rina Kumala Sari</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>H</td>
+                        <td>90</td>
+                        <td>85</td>
+                        <td>70</td>
+                        <td>95</td>
+                        <td>88</td>
+                        <td>76</td>
+                        <td>95</td>
+                        <td>97</td>
+                        <td>80</td>
+                        <td>88</td>
+                        <td>85</td>
+                        <td>90</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </br>
+    <h3>3. Buat galeri dari beberapa gambar dengan menggunakan HTML & CSS</h3>
+    </br>
+    <div class="box-box">
+        <div class="box">
+            <img src="1.jpg" alt="">
+            
+        </div>
+        <div class="box">
+            <img src="2.jpg" alt="">
+        </div>
+        <div class="box">
+            <img src="3.jpg" alt="">
+        </div>
+    </div>
+    <div class="box-box">
+        <div class="box">
+            <img src="4.jpg" alt="">
+        </div>
+        <div class="box">
+            <img src="5.jpg" alt="">
+        </div>
+        <div class="box">
+            <img src="6.jpg" alt="">
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+}
+
+.form {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.Kolom {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+label{
+    margin-bottom: 5px;
+}
+.tabel{
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    margin: auto;
+}
+button{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.box-box {
+    display: flex;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    margin-left:10px ;
+    margin-bottom: 10px;
+}
+
+.box img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    
+}
+table thead tr th{
+    vertical-align: middle;
+    text-align: center;
+}
